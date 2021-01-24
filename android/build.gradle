@@ -41,9 +41,7 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-    
-    aaptOptions.cruncherEnabled = false
-    aaptOptions.useNewCruncher = false
+
 }
 
 dependencies {
